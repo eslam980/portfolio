@@ -1,63 +1,62 @@
-import Image from 'next/image';
-import Link from 'next/link';
 import React from 'react';
-import propertyImg from '../public/assets/projects/property.jpg';
-import cryptoImg from '../public/assets/projects/crypto.jpg'
-import netflixImg from '../public/assets/projects/netflix.jpg'
-import twitchImg from '../public/assets/projects/twitch.jpg'
+import project1 from '../public/assets/projects/Giggos/Goggeri_es_1.PNG';
+import project1_2 from '../public/assets/projects/Giggos/Goggeri_es_3.PNG';
+import project1_3 from '../public/assets/projects/Giggos/Goggeri_es_4.PNG';
+import project1_4 from '../public/assets/projects/Giggos/Goggeri_es_5.PNG';
+import project1_5 from '../public/assets/projects/Giggos/Goggeri_es_6.PNG';
 import ProjectItem from './ProjectItem';
+import { projects } from './constants';
 
 const Projects = () => {
   return (
     <div id='projects' className='w-full'>
-      <div className='max-w-[1300px] mx-auto px-2 py-16'>
-        <p className='text-xl tracking-widest uppercase text-[#ffd20c]'>
+      <div className='max-w-[1800px] mx-auto px-2 py-16'>
+        <p className='text-xl tracking-widest uppercase bg-clip-text text-transparent bg-gradient-to-r from-purple-800 to-blue-800'>
           Projects
         </p>
-        <h2 className='py-4'>My Projects : </h2>
-
-
-        <div className='max-w-[1200px] mx-auto px-6 py-16'>
-
-        <ProjectItem
-            title='Property Finder'
-            backgroundImg={propertyImg}
-            projectUrl='/property'
-            tech='React JS'
-          />
-
-        </div>
+        <h2 className='py-4 '>My Projects : </h2>
 
 
 
         <div className='grid md:grid-cols-3 gap-8'>
-          <ProjectItem
-            title='Property Finder'
-            backgroundImg={propertyImg}
-            projectUrl='/property'
-            tech='React JS'
-          />
-          <ProjectItem
-            title='Crypto App'
-            backgroundImg={cryptoImg}
-            projectUrl='/crypto'
-            tech='React JS'
 
+          <ProjectItem
+            title={projects[0].title}
+            backgroundImg={project1}
+            projectUrl={projects[0].projecturl}
+            tech={projects[0].tech}
           />
           <ProjectItem
-            title='Netflix App'
-            backgroundImg={netflixImg}
-            projectUrl='/netflix'
-            tech='React JS'
-
+            title={projects[0].title}
+            backgroundImg={project1_2}
+            projectUrl={projects[0].projecturl}
+            tech={projects[0].tech}
           />
-          <ProjectItem
-            title='Twitch UI'
-            backgroundImg={twitchImg}
-            projectUrl='/twitch'
-            tech='Next JS'
-
+                    <ProjectItem
+            title={projects[0].title}
+            backgroundImg={project1_3}
+            projectUrl={projects[0].projecturl}
+            tech={projects[0].tech}
           />
+                    <ProjectItem
+            title={projects[0].title}
+            backgroundImg={project1_4}
+            projectUrl={projects[0].projecturl}
+            tech={projects[0].tech}
+          />
+                    <ProjectItem
+            title={projects[0].title}
+            backgroundImg={project1_5}
+            projectUrl={projects[0].projecturl}
+            tech={projects[0].tech}
+          />
+                    <ProjectItem
+            title={projects[0].title}
+            backgroundImg={project1_2}
+            projectUrl={projects[0].projecturl}
+            tech={projects[0].tech}
+          />          
+
         </div>
       </div>
     </div>

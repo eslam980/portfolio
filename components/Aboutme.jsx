@@ -4,14 +4,12 @@ import React, { useState } from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
-import ContactImg from '../public/assets/contact.jpg';
 
 const Aboutme = () => {
   return (
     <div id='contact' className='w-full lg:h-screen'>
-      <div className='max-w-[1240px] m-auto px-2 w-full '>
-        <p className='text-xl tracking-widest uppercase text-[#ffd20c]'>
+      <div className='max-w-[1800px] m-auto px-2 w-full '>
+        <p className='text-xl tracking-widest uppercase bg-clip-text text-transparent bg-gradient-to-r from-purple-800 to-blue-800'>
           About Me
         </p>
         <div className='grid lg:grid-cols-5 gap-8'>

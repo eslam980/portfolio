@@ -15,141 +15,141 @@ import Cplus from '../public/assets/skills/cplus.png';
 const Skills = () => {
   return (
     <div id='skills' className='w-full lg:h-screen p-2'>
-      <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
-        <p className='text-xl tracking-widest uppercase text-[#ffd20c]'>
+      <div className='max-w-[1800px] mx-auto flex flex-col justify-center h-full'>
+        <p className='text-xl tracking-widest uppercase bg-clip-text text-transparent bg-gradient-to-r from-purple-800 to-blue-800'>
           Skills
         </p>
         <h2 className='py-4'>My Weapons : </h2>
         <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
 
-          <div className='bg-white p-6 shadow-md shadow-gray-800 rounded-md hover:scale-105 ease-in duration-300'>
+          <div className='bg-zinc-900 p-6 shadow-md shadow-black rounded-md hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image src={Unity} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3 className='text-black mr-6'>Unity</h3>
+                <h3 className='text-white mr-6'>Unity</h3>
               </div>
             </div>
           </div>
 
-          <div className='bg-white p-6 shadow-md shadow-gray-800 rounded-md hover:scale-105 ease-in duration-300'>
+          <div className='bg-zinc-900 p-6 shadow-md shadow-black rounded-md hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image src={Csharp} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3 className='text-black mr-6'>C#</h3>
+                <h3 className='text-white mr-6'>C#</h3>
               </div>
             </div>
           </div>
 
-          <div className='bg-white p-6 shadow-md shadow-gray-800 rounded-md hover:scale-105 ease-in duration-300'>
+          <div className='bg-zinc-900 p-6 shadow-md shadow-black rounded-md hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image src={Cplus} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3 className='text-black mr-6'>C++</h3>
+                <h3 className='text-white mr-6'>C++</h3>
               </div>
             </div>
           </div>
 
-          <div className='bg-white p-6 shadow-md shadow-gray-800 rounded-md hover:scale-105 ease-in duration-300'>
+          <div className='bg-zinc-900 p-6 shadow-md shadow-black rounded-md hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image src={Rust} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3 className='text-black mr-6'>Rust</h3>
+                <h3 className='text-white mr-6'>Rust</h3>
               </div>
             </div>
           </div>
 
-          <div className='bg-white p-6 shadow-md shadow-gray-800 rounded-md hover:scale-105 ease-in duration-300'>
+          <div className='bg-zinc-900 p-6 shadow-md shadow-black rounded-md hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image src={python} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3 className='text-black mr-6'>Python</h3>
+                <h3 className='text-white mr-6'>Python</h3>
               </div>
             </div>
           </div>
 
-          <div className='bg-white p-6 shadow-md shadow-gray-800 rounded-md hover:scale-105 ease-in duration-300'>
+          <div className='bg-zinc-900 p-6 shadow-md shadow-black rounded-md hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image src={NextJS} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3 className='text-black mr-6'>Next js</h3>
+                <h3 className='text-white mr-6'>Next js</h3>
               </div>
             </div>
           </div>
-          <div className='bg-white p-6 shadow-md shadow-gray-800 rounded-md hover:scale-105 ease-in duration-300'>
+          <div className='bg-zinc-900 p-6 shadow-md shadow-black rounded-md hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image src={Github} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3 className='text-black mr-6'>Github</h3>
+                <h3 className='text-white mr-6'>Github</h3>
               </div>
             </div>
           </div>
 
-          <div className='bg-white p-6 shadow-md shadow-gray-800 rounded-md hover:scale-105 ease-in duration-300'>
+          <div className='bg-zinc-900 p-6 shadow-md shadow-black rounded-md hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image src={Javascript} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3 className='text-black mr-6'>Javascript</h3>
+                <h3 className='text-white mr-6'>Javascript</h3>
               </div>
             </div>
           </div>
 
-          <div className='bg-white p-6 shadow-md shadow-gray-800 rounded-md hover:scale-105 ease-in duration-300'>
+          <div className='bg-zinc-900 p-6 shadow-md shadow-black rounded-md hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image src={Firebase} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3 className='text-black mr-6'>Firebase</h3>
+                <h3 className='text-white mr-6'>Firebase</h3>
               </div>
             </div>
           </div>
 
-          <div className='bg-white p-6 shadow-md shadow-gray-800 rounded-md hover:scale-105 ease-in duration-300'>
+          <div className='bg-zinc-900 p-6 shadow-md shadow-black rounded-md hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image src={Tailwind} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3 className='text-black mr-6'>Tailwind</h3>
+                <h3 className='text-white mr-6'>Tailwind</h3>
               </div>
             </div>
           </div>
 
 
-          <div className='bg-white p-6 shadow-md shadow-gray-800 rounded-md hover:scale-105 ease-in duration-300'>
+          <div className='bg-zinc-900 p-6 shadow-md shadow-black rounded-md hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image src={ReactImg} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3 className='text-black mr-6'>React</h3>
+                <h3 className='text-white mr-6'>React</h3>
               </div>
             </div>
           </div>
 
-          <div className='bg-white p-6 shadow-md shadow-gray-800 rounded-md hover:scale-105 ease-in duration-300'>
+          <div className='bg-zinc-900 p-6 shadow-md shadow-black rounded-md hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image src={flutter} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3 className='text-black mr-6'>Flutter</h3>
+                <h3 className='text-white mr-6'>Flutter</h3>
               </div>
             </div>
           </div>

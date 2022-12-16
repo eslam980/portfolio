@@ -10,8 +10,8 @@ import ContactImg from '../public/assets/contact.jpg';
 const Contact = () => {
   return (
     <div id='contact' className='w-full lg:h-screen'>
-      <div className='max-w-[1240px] m-auto px-2 py-16 w-full '>
-        <p className='text-xl tracking-widest uppercase text-[#ffd20c]'>
+      <div className='max-w-[1800px] m-auto px-2 py-16 w-full '>
+        <p className='text-xl tracking-widest uppercase bg-clip-text text-transparent bg-gradient-to-r from-purple-800 to-blue-800'>
           Contact
         </p>
         <h2 className='py-4'>Get In Touch</h2>
@@ -21,16 +21,17 @@ const Contact = () => {
             <div className='lg:p-4 h-full '>
               <div>
                 <Image
-                  className='rounded-xl hover:scale-105 ease-in duration-300'
+                  className='rounded-xl hover:scale-105 ease-in duration-300 bg-cover'
                   src={ContactImg}
                   alt='/'
+
                 />
               </div>
               <div>
-                <h2 className='py-2'>Clint Briley</h2>
-                <p>Front-End Developer</p>
+                <h2 className='py-2'>eslam980</h2>
+                <p>Programmer</p>
                 <p className='py-4'>
-                  I am available for freelance or full-time positions. Contact
+                  I am freelance or full-time. Contact
                   me and let&apos;s talk.
                 </p>
               </div>
