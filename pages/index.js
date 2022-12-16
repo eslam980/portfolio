@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Banners from '../components/banners';
+// import Banners from '../components/banners';
 import Main from '../components/Main';
 import Projects from '../components/Projects';
 import Skills from '../components/Skills';
@@ -16,7 +16,7 @@ export default function Home() {
     <Main />
     <Skills />
     <Projects />
-    <Banners/>
+    {/* <Banners/> */}
     </div>
   )
 }
